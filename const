@@ -1,0 +1,66 @@
+package models;
+
+public class cigarros{
+  private double cantidadhojas;
+  private double tiempopicado;
+  private double cantidadaroma;
+  private double cantidadazucar;
+  private double cantidadnicotina;
+  
+  public cigarros(){
+      
+  }
+  
+  public cigarros(double cantidadhojas, double tiempopicado, double cantidadaroma, double cantidadazucar, double cantidadnicotina) {
+    this.cantidadhojas = cantidadhojas;
+    this.tiempopicado = tiempopicado;
+    this.cantidadaroma = cantidadaroma;
+    this.cantidadazucar = cantidadazucar;
+    this.cantidadnicotina = cantidadnicotina;
+  }
+  
+  
+  public double getCantidadhojas() {
+    return cantidadhojas;
+  }
+  
+  public void setCantidadhojas(double cantidadhojas) {
+    this.cantidadhojas = cantidadhojas;
+  }
+  
+  public double getTiempopicado() {
+    return tiempopicado;
+  }
+  
+  public void setTiempopicado(double tiempopicado) {
+    this.tiempopicado = tiempopicado;
+  }
+  
+  public double getCantidadaroma() {
+    return cantidadaroma;
+  }
+  
+  public void setCantidadaroma(double cantidadaroma) {
+    this.cantidadaroma = cantidadaroma;
+  }
+  
+  public double getCantidadazucar() {
+    return cantidadazucar;
+  }
+  
+  public void setCantidadazucar(double cantidadazucar) {
+    this.cantidadazucar = cantidadazucar;
+  }
+  
+  public double getCantidadnicotina() {
+    return cantidadhojas;
+  }
+  
+  public void setCantidadnicotina(double cantidadnicotina) {
+    this.cantidadnicotina = cantidadnicotina;
+  }
+  @Override
+    public String toString() {
+       return "cigarros = " + "cantidadhojas = " + cantidadhojas + "tiempo picado = " + tiempopicado + "cantidadaroma = " + cantidadaroma + "cantidadazucar = " + cantidadazucar + "cantidadnicotina = =" + cantidadnicotina;
+    }
+}
